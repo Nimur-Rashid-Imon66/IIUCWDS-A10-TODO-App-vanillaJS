@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body{
+    font-family: inter;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap : 15px;
+}
+
+.Heading{
+    text-align:center; 
+    font-size: 36px;
+    font-weight:800;
+    color : rgb(1, 1, 48);
+}
+
+.add-box{
+    display : flex;
+    gap : 8px;
+    height: 30px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 5px 10px;
+    font-weight:400;
+  }
+
+.add-btn:hover{
+    background-color: #519554; 
+  }
+.edit-btn{
+    background-color: #849bf9;
+    display: none;
+}
+.edit-btn:hover{
+    background-color: #4f71f9;
+}
+.cancel-btn{
+    background-color: #fb9c9c;
+    display: none;
+}
+.cancel-btn:hover{
+    background-color: #fb5e5e;
+}
+.todo-list{
+    display:flex;
+    flex-direction: column;
+    /* background-color: grey; */
+    gap :20px;
+  }
+.todo-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap :8px
+}
+
+.btn{
+    color : black;
+    background-color:#FFF;
+}
+.btn:hover{
+    /* align-self: flex-end; */
+    background-color:rgb(193, 191, 191);
+}
